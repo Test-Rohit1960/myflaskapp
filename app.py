@@ -9,4 +9,4 @@ app = Flask(__name__)
 def hello():
     return "<h2>Hello world - Docker Flask Deployment Lab<h2><hr/>"\
     
-app.run(host="0.0.0.0", port=5050)
+app.run(host="0.0.0.0", port=3000)
