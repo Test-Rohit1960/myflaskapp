@@ -10,13 +10,5 @@ def hello():
     return "<h2>Hello world - Docker Flask Deployment Lab<h2><hr/>"\
 
 
-p=5000
-while True:
-    try:
-        app.run(host="0.0.0.0", port=p)
-        break
-    except OSError:
-        if p > 5999:
-            break
-        p+=1
+app.run(host="0.0.0.0", port=5000)
 
