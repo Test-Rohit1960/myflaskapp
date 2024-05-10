@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git 'https://github.com/yourusername/yourrepository.git'
+                git 'https://github.com/Test-Rohit1960/myflaskapp.git'
             }
         }
       stage("Pushing changes to the remote server"){
