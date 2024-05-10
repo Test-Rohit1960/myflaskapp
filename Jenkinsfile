@@ -12,7 +12,7 @@ pipeline {
                   sh """
                   sudo scp -i /root/pla/mysecret app.py root@flaskserver:/root
                   sudo ssh -i /root/pla/mysecret root@flaskserver "python3" "/root/app.py" "&"
-                  """"
+                  """
             }
         }
     }
